@@ -1,0 +1,83 @@
+.sidenav {
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 65px;
+    background: #fefefe;
+    overflow-x: hidden;
+    padding: 8px 0px;
+    height: 100vh;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 0px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #274F73;
+    display: block;
+}
+
+.sidenav li {
+    list-style-type: none;
+}
+
+.sidenav .active {
+    color: #FF7350;
+}
+
+.sidenav a:hover {
+    color: rgb(38, 51, 62);
+    text-decoration: none;
+}
+
+.main {
+    margin-left: 250px;
+    padding: 0px 80px;
+    margin-top: 80px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 14px;}
+}
+
+#intervalHd2, #intervalHd3 {
+    display: none;
+}
+
+#intervalDn2, #intervalDn3 {
+    display: none;
+}
+
+#intervalCr2, #intervalCr3 {
+    display: none;
+}
+
+#intervalPp2, #intervalPp3 {
+    display: none;
+}
+
+button:focus, select:focus, input:focus, textarea:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.list-inline a, .list-inline a:hover  {
+    color: rgb(38, 51, 62);
+    text-decoration: none;
+}
+
+.btn-process-save {
+    width: 50px;
+    border: 1px solid #274F73;
+    color: #ffffff;
+    background-color: #274F73;
+    border-radius: 5px;
+}
+
+.add-btn {
+    border: 1px solid #274F73;
+    background-color: #274F73;
+    color: #ffffff;
+    border-radius: 5px;
+}

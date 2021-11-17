@@ -1,0 +1,61 @@
+.section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #eff5f5;
+}
+
+.active {
+    color: #FF7350;
+}
+
+.new-navbar {
+    background-color: #274F73;
+}
+
+.icon-toggle {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+input[type=text]:focus, button:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.collapse {
+    color: #ffffff;
+}
+
+.form-group .send-btn {
+    background-color: #274F73;
+    color: #ffffff;
+    height: 38px;
+}
+
+.form-group .send-btn:hover {
+    color: #ffffff;
+    background-color: rgb(36, 107, 169);
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.list-inline a, .list-inline a:hover  {
+    color: rgb(38, 51, 62);
+    text-decoration: none;
+}
+
+.copyright {
+    color: rgb(123, 123, 123);
+}
+
+.nav-item a:hover {
+    color: #167cf0;
+}

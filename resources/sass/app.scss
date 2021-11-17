@@ -1,0 +1,34 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css');
+
+
+// Navbar collapse
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "home.scss";
+@import "assignment-info.scss";
+@import "create-assignment.scss";
+@import "footer-basic.scss";
+@import "lecturer.scss";
+@import "loign-form-dark.scss";
+@import "navigation-with-search.scss";
+@import "students-list.scss";
+@import "styles.scss";
+@import "request.scss";
+@import "manage-assignments";
+@import "dropzone";
+@import "marking-assignment";
+@import "newstyle";

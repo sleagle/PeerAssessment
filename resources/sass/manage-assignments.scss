@@ -1,0 +1,75 @@
+.direction {
+}
+
+.assignments {
+    border: 1px solid #c6c6c6;
+    border-top: none;
+    padding: 15px;
+}
+
+select:focus, .btn:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+.zoom {
+    transition: transform .1s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+.new-navbar {
+    background-color: #274F73;
+}
+
+.icon-toggle {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+button:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+.section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #eff5f5;
+}
+
+
+.list-inline a, .list-inline a:hover  {
+    color: rgb(38, 51, 62);
+    text-decoration: none;
+}
+
+.copyright {
+    color: rgb(123, 123, 123);
+}
+
+.card {
+    width: 300px;
+    height: 170px;
+    border: 1px solid #274F73;
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px #888888;
+    padding-top: 30px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #274F73;
+}
+
+.col-sm-6 a {
+    color: #274F73;
+    font-family: 'Bitter', serif;
+}
+body, section {
+    background-color: #eff5f5;
+}

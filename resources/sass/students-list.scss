@@ -1,0 +1,37 @@
+.student-list-main {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+select:focus, input[type=text] {
+    outline: none !important;
+    box-shadow: none;
+}
+
+input[type=search]:focus, input[type=file]:focus, input[type=button]:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.list-inline a, .list-inline a:hover  {
+    color: rgb(38, 51, 62);
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: none;
+    color: #274F73;
+}
+
+.btn-pas {
+    background-color: #274F73;
+    color: #ffffff;
+    border-radius: 5px;
+}
